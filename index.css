@@ -168,8 +168,8 @@ main > section p {
   border-radius: 8px;
   max-width: 50rem; 
   width: 70%;
-  height: auto
-  display flex;
+  height: auto;
+  display: flex;
 }
 
 .overlay-content img {
