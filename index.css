@@ -186,3 +186,27 @@ main > section p {
   top: 1.25rem;}
 
   
+.creators {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.creator-image {
+  height: 256px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.product > a > img {
+  height: 256px;
+  opacity: 1;
+}
+
+.product > a > img:hover {
+  opacity: 0.9;
+}
