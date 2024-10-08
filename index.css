@@ -1,0 +1,188 @@
+
+
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4f4f4f;
+  color: #3e3e3e;
+  line-height: 1.6;
+}
+
+header div {
+  max-width: 75rem; 
+  margin: 0 auto;
+  padding: 1.25rem; 
+}
+
+.container {
+  max-width: 75rem; 
+  margin: 0 auto;
+  padding: 1.25rem; 
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.2rem; 
+  margin-bottom: 0.5rem;
+}
+
+h1 span {
+  color: #a7a8a9;
+}
+
+h2 {
+  font-size: 1.5rem; 
+  margin-bottom: 0.65rem; 
+}
+
+h3 {
+  font-size: 1.25rem; 
+  margin-bottom: 0.3rem; 
+}
+
+p {
+  margin-bottom: 0.600rem; 
+}
+
+a {
+  color: #127df0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0057b3;
+}
+
+header {
+  background-color: #333333; 
+  padding: 1.25rem 0; 
+  display: flex;
+  align-items: flex-start;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  font-size: 0.8rem; 
+  letter-spacing: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /*gap from chatgpt*/
+  gap: 3em;
+}
+
+nav li {
+  text-transform: uppercase;
+}
+
+
+ h1 span {
+  color: #babade;
+  font-size: 4rem;
+}
+
+header h1 span + span {
+  color: #7e9dcb;
+  font-size: 1rem; 
+  font-style: italic;
+  vertical-align: sub; 
+  margin-left: 0.5em;
+}
+
+main > section {
+  background-color: #fff;
+  padding: 2.5rem 0; 
+}
+
+main > section h2 {
+  margin-bottom: 0.625rem; 
+}
+
+main > section p {
+  max-width: 50rem; 
+  margin: 0 auto 1.25rem; 
+}
+
+.video-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.episode-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem; 
+}
+
+.episode {
+  flex: 1 0 20rem; 
+  padding: 1.25rem; 
+  border: 1px solid #fffcfc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.episode img {
+  width: 70%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #120505;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay:target {
+  display: flex;
+}
+
+.overlay-content {
+  background: #fff;
+  padding: 1.25rem; 
+  border-radius: 8px;
+  max-width: 50rem; 
+  width: 70%;
+  height: auto
+  display flex;
+}
+
+.overlay-content img {
+  max-width: 200px;
+  margin-right: 1.25rem; 
+}
+
+.overlay-text {
+  max-width: 540px;
+}
+
+.close {
+  position: absolute;
+  top: 1.25rem;}
+
+  
